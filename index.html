@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootsrtap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Random Quotes</title>
+</head>
+<body>
+    <div class="container myquote text-center d-flex flex-column justify-content-center align-items-center gap-4">
+        <div class="p-5 bg-white box">
+            <h1>Quote of the Day</h1>
+            <p id="hint">Press the button below to recieve a random quote</p>
+            <button class="btn px-4" onclick="getQuotes()">New Quote</button>
+            <p id="quoteDisplay" class="mb-0 mt-4">" You miss 100% of the shots you don't take. "</p>
+            <p id="authorDisplay">-- Wayne Gretzy</p>
+        </div>
+    </div>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- my js  -->
+    <script src="js/random_quotes.js"></script>
+</body>
+</html>
